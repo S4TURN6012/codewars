@@ -11,12 +11,10 @@
 
 //SOLUTION
 
-function stringToNumber(s)
-{
-    if (/^-?\d+$/.test(s)) {
+function stringToNumber(s) {
         return parseInt(s);
     }
-}
+
 
 let result = stringToNumber("34566");
 console.log(result);
