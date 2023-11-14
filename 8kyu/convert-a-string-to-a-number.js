@@ -19,5 +19,5 @@ function stringToNumber(s) {
 let result = stringToNumber("34566");
 console.log(result);
 
-result = stringToNumber("-755");
+result = stringToNumber("-795");
 console.log(result);
